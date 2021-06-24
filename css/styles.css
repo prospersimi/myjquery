@@ -1,0 +1,15 @@
+.body {
+    border: 3px solid red;
+    width: 20px;
+    height: 20px;
+    animation: spin 3s linear infinite;
+}
+
+@keyframes spin {
+    50%{
+      background-color: blue;  
+    }
+    100%{
+      background-color: green;  
+    }
+}
